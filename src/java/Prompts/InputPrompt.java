@@ -1,4 +1,4 @@
-package Prompts;
+package src.java.Prompts;
 
 import java.util.Scanner;
 

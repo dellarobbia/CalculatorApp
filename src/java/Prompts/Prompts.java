@@ -1,4 +1,4 @@
-package Prompts;
+package src.java.Prompts;
 
 /**
  * Interface for classes responsible for displaying prompts to the user
