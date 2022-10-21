@@ -1,23 +1,9 @@
 package src.main.java.Calculators;
 
-public class Adder implements Calculators{
-    private float[] numbers;
-    private float sum;
-
-    public float[] getNumbers(){
-        return numbers;
-    }
-    public void setNumbers(float[] numbers){
-        this.numbers = numbers;
-    }
-
-    public float getSum(){
-        return sum;
-    }
+public class Adder extends Calculator{
 
     public Adder(float[] numbers){
-        setNumbers(numbers);
-        sum = 0;
+        super(numbers);
     }
 
     @Override
@@ -27,7 +13,7 @@ public class Adder implements Calculators{
 
     private void addNumbers(){
         for(float number : numbers){
-            sum += number;
+            result += number;
         }
     }
 }

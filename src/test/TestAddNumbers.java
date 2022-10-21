@@ -18,6 +18,6 @@ public class TestAddNumbers {
     @Test
     public void test_AddNumbersEqualsFive(){
         testAdder.calculate();
-        assertEquals(5, testAdder.getSum());
+        assertEquals(5, testAdder.getResult());
     }
 }
