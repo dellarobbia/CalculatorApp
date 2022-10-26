@@ -1,8 +1,8 @@
-package calculator_app.src.main.java.com.dellarobbia;
+package com.dellarobbia;
 
 import java.util.Scanner;
 
-import calculator_app.src.main.java.com.dellarobbia.Calculators.Adder;
+import com.dellarobbia.Calculators.Adder;
 
 public class Main{
     public static void main(String[] args){
