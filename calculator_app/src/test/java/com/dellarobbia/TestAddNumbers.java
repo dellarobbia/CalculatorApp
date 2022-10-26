@@ -1,11 +1,11 @@
-package src.test;
+package calculator_app.src.test.java.com.dellarobbia;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.Test;
 
-import src.main.java.Calculators.Adder;
+import calculator_app.src.main.java.com.dellarobbia.Calculators.*;
 
 public class TestAddNumbers {
     float qtyTwo = 2;
