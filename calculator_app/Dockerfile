@@ -1,6 +1,6 @@
-FROM openjdk:8
+FROM openjdk:17
 
-ADD target/my-maven-docker-project.jar my-maven-docker-project.jar
+ADD target/calculator_app.jar calculator_app.jar
 
 ENTRYPOINT ["java", "-jar","calculator_app.jar"]
 
