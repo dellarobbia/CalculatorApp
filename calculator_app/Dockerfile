@@ -1,4 +1,4 @@
-FROM openjdk:17
+FROM openjdk:17-oracle
 
 ADD target/calculator_app.jar calculator_app.jar
 
