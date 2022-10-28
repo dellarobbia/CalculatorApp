@@ -20,7 +20,7 @@
     </properties>
 
     <build>
-        <finalName>calculatorApp</finalName>
+        <finalName>calculator_app</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>
