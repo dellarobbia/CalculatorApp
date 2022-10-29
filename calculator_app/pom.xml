@@ -16,7 +16,7 @@
         <junit-jupiter.version>5.7.2</junit-jupiter.version>
         <picocli.version>4.6.1</picocli.version>
         <log4j.version>2.17.0</log4j.version>
-        <project.mainclass>com.dellarobbia.App</project.mainclass>
+        <project.mainclass>com.dellarobbia.Main</project.mainclass>
     </properties>
 
     <build>
